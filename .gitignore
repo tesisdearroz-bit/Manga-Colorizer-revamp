@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Runtime/cache/output data
+Backend/cache/
+Backend/temp/
+Backend/output/*
+!Backend/output/.gitkeep
+
+# SSL private material
+Backend/ssl/server.key
+Backend/ssl/*.key
+Backend/ssl/server.csr
+
+# Large optional AlacGAN weights are downloaded separately
+Backend/networks/generator.zip
+
+# Browser extension build artifacts
+web-ext-artifacts/
+.vs/
+.DS_Store
+Thumbs.db
